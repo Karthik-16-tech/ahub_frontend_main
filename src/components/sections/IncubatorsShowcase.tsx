@@ -106,6 +106,24 @@ const incubators: Incubator[] = [
       { value: "35+", label: "Enterprise Pilots", Icon: TrendingUp },
     ],
   },
+  {
+    name: "DigiFAC",
+    tagline: "Digital Fabrication & Advanced Manufacturing Hub",
+    short:
+      "A state-of-the-art digital fabrication facility equipping innovators with rapid prototyping, 3D printing, CNC machining, and industrial design tools.",
+    long:
+      "DigiFAC empowers hardware and IoT startups to design, test, and iterate physical product prototypes with precision engineering infrastructure and technical expert support.",
+    blurb:
+      "Access cutting-edge digital fabrication machinery, CAD/CAM software, and prototyping specialists to accelerate product development from concept to manufacturing.",
+    image: "https://ahub-image.s3.eu-north-1.amazonaws.com/incubators/didgifac.jpg",
+    card: "https://ahub-image.s3.eu-north-1.amazonaws.com/incubators/didgifac.jpg",
+    url: "/ecosystem/infrastructure",
+    stats: [
+      { value: "35+", label: "Prototypes", Icon: Rocket },
+      { value: "20+", label: "Labs & Machines", Icon: Building2 },
+      { value: "15+", label: "Industry Partners", Icon: TrendingUp },
+    ],
+  },
 ];
 
 export function IncubatorsShowcase() {
