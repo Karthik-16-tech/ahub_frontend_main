@@ -1,0 +1,270 @@
+for startup portoflio the image urls are 
+1)interview buddy-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/interview+buddy.png
+2)edumoon-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/edumoon.png
+3)green jams-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/greenjams_logo.jpg
+4)pick a book-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/pick+a+book.png
+5)sweya-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/sweya.png
+6)sandlogic-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/sandlogic.png
+7)icompass-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/icompass.png
+8)datafoundry-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/icompass.png
+9)agri DNA-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/agri+dna.jpg
+10)antar iot-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/antar+iot.png
+11)bizpro-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/bizpro.png
+12)austhraa-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/austhraa_motors_logo.jpg
+13)billbo-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/billbo.jpg
+14)cirus-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/cirus.jpg
+15)der auto bot-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/der+auto+bot.jpg
+16)digiot ai-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/digiotai.jpg
+17)furpsq-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/furpsq.jpg
+18)happy drivers-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/happy+drivers.jpg
+19)hosue insta-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/house+insta.png
+20)innoccito-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/innoccito.jpg
+21)ipmg-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/ipmg.jpg
+22)jaitra-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/jaitra.jpg
+23)jnana-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/jnana.jpg
+24)joora drone-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/joora_drone_consultants_logo.jpg
+25)matric services-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/matric+services.png
+26)nest webhost-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/nest+webhost.png
+27)nr techcreatz-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/nr+techcreatz.png
+28)return trucks-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/retruntrucks_logo.jpg
+29)rolls mama-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/rolls+mama.jpg
+30)schemax-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/schemax.png
+31)sconex-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/sconex.jpg
+32)spice route-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/spice+route.jpg
+33)spotimes-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/spot+times.png
+34)starbeat-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/starbeat.jpg
+35)starry stories-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/starry+stories.png
+36)talent spotify-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/talentspotify_logo.jpg
+37)taramandal-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/taramandal.jpg
+38)tessrac-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/tessrac_logo.jpg
+39)Train Dhaba-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/train+dhaba.avif
+40)Vihaan-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/vihaan.jpg
+41)VYOMSTRA-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_portfolio/vyomastra.jpg
+
+for infrastructure page teh image url is 
+the ahub-https://ahub-image.s3.eu-north-1.amazonaws.com/Infrastructure/ahub.jpg
+collabrative environment-https://ahub-image.s3.eu-north-1.amazonaws.com/Infrastructure/collabrative+environment.png
+confencce hall -https://ahub-image.s3.eu-north-1.amazonaws.com/Infrastructure/confenrce+hall.jpg
+iot_labs - https://ahub-image.s3.eu-north-1.amazonaws.com/Infrastructure/iot+labs.jpeg 
+
+for startup_ebnets page thet image url are 
+feuturred event- 
+    Women Entrepreneurship Series-https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/women_tie.jpeg
+    Startup Saturdays – Monthly Meetup -https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/startup+starurdays.jpg
+
+Agriculture Entrepreneur Seminar-
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/agriculture-entrepreneurship-1.webp
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/agriculture-entrepreneurship.webp
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/agriculture-entrepreneurship.webp
+
+Andhra Teck League 2023-
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/andhra-teck-league-2023-1.webp
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/andhra-teck-league-2023-2.webp
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/andhra-teck-league-2023.webp
+
+HackAP Arts & Culture Hackathon-
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/hackap-arts-culture-1.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/hackap-arts-culture-2.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/hackap-arts-culture.jpg
+
+IGNITE Program 2026 – Session 1-
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/ignite-program-2026-1.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/ignite-program-2026-2.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/ignite-program-2026-3.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/ignite-program-2026.jpg
+
+Startup Saturdays – Energy Distribution-
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/startup-saturdays-nov-2024-1.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/startup-saturdays-nov-2024-2.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/startup-saturdays-nov-2024.jpg
+
+Startup Saturdays – Waste Management
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/startup-saturdays-may-2025.jpg
+
+Startup Saturdays – Marine Biotech-
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/startup-saturdays-sep-2025.jpg
+
+  
+Health, Bio & Med Tech Ideathon-
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/health-biomed-ideathon-2023.jpg
+
+ISBA CXO CONNECT 2025-
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/isba-cxo-connect-2025-1.webp
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/isba-cxo-connect-2025.webp
+
+Marketing & Customer Acquisition Workshop-
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/marketing-customer-acquisition-1.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/marketing-customer-acquisition.jpg
+
+Ideathon at āhub-
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/IMG_3883.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/IMG_3884.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/IMG_3899.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/startup_events/IMG_3902.jpg
+
+partners
+1)acir-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/acir.jpg
+2)alcove-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/alcove.jpg
+3)atpi-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/atpi.jpg
+4)avanti-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/avanti.png
+5)cii-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/cii.png
+6)digifac-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/digifac.png
+7)ed-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/ed.jpg
+8)gait_solutions-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/gait_solutions.png
+9)icpmpass-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/icompass.png
+10)meity-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/meity.jpg
+11)ministry_of_sceince -https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/ministry+of+sceince.png
+12)msme-logo-p-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/msme-logo-p.png
+13)nasscom-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/nasscom.png
+14)Ni-msme-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/Ni-msme.png
+15)pbl_trnasport-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/pbl_trnasport.png
+16)purude-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/purude.jpg    
+17)rosys-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/rosys.jpg
+18)sandhya_aqua-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/sandhya_aqua.jpg
+19)sandlogic-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/sandlogic.jpg  
+20)tie_women-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/tie_women.jpg  
+21)TiE-U-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/TiE-U.png  
+22)tie-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/tie.jpg  
+23)wageningen-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/wageningen.png  
+24)young+indians-https://ahub-image.s3.eu-north-1.amazonaws.com/Partners/young+indians.jpg
+
+event claendar-
+1)Drone Race 2026-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/drone-race-2026.jpg
+2)IDEA BOUT 2026-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/idea-bout-2026.jpg
+3)Been There, Done That-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/been+there+done+that.jpeg
+4)Natural Farming & Organic-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/natural-farming-exhibition.jpg
+5)Pre-AI Summit-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/pre-ai-summit.jpg
+6)Find Your First Customers-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/startup-first-customers.webp
+7)Spark Nation Hackathon-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/codium-spark-hackathon.jpg
+8)Urvikrithi Hackathon-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/wsw-2k25-ideathon.heic
+9)HackAP Hackathon-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/hackap-hackathon-17.jpg
+10)Yukthi Innovation Challenge-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/yu-program-registration.webp
+11)Idea Surge 2025-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/idea-surge-2025.jpg
+12)HackAP Hackathon 15-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/hackap-hackathon-15.webp
+13)HackAP Hackathon 13-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/hackap-hackathon-13.jpg
+14)DevFest 2024-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/ahub-devfest-2024.webp
+15)Maker's Spirit-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/register-luma-sbo2nqar.jpg
+16)Startup Saturday-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/startup+saturday.jpeg
+17)Been There Done That-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/been+there+donw+that+2.jpeg
+18)Startup Success Days-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/google+starup+success+days.jpg
+19)Ideathon-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/ideathon.jpg
+20)Startup Saturday-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/starups+staruday.jpg
+21)Been There Done That-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/been+there+donw+that+2.jpeg
+22)Andhra Tech League-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/andhra+texh+league.jpg
+23)HackAP Agritech Hackathon-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/Hackap+agritech+hackathon.jpg
+24)Runnin Wild-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/runnin+wild.jpeg
+25)ED Student Design Competition-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/eds+stduet+design+competittion.jpeg
+26)Eyes Wide Shut-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/eyes+wide+shut.jpg
+27)Startup Saturday-https://ahub-image.s3.eu-north-1.amazonaws.com/event_calendar/Start+Up+saturday.jpeg
+
+case studies-
+https://ahub-image.s3.eu-north-1.amazonaws.com/case_studies/GNY.AI.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/case_studies/Green+jams.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/case_studies/interview+buddy.png
+
+what we do-
+https://ahub-image.s3.eu-north-1.amazonaws.com/what+we+do/01.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/what+we+do/02.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/what+we+do/03.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/what+we+do/04.png
+
+portoflio companies-
+1)eduembelem-https://ahub-image.s3.eu-north-1.amazonaws.com/portfolio-companies/eduemblem.png
+            https://ahub-image.s3.eu-north-1.amazonaws.com/portfolio-companies/eduemblem_founder_varma.jp
+2)interview buddy-https://ahub-image.s3.eu-north-1.amazonaws.com/portfolio-companies/interview_buddy_logo.png
+                  https://ahub-image.s3.eu-north-1.amazonaws.com/portfolio-companies/interview_buddy_founder.png
+3)dreambot-https://ahub-image.s3.eu-north-1.amazonaws.com/portfolio-companies/dreambot.png
+           https://ahub-image.s3.eu-north-1.amazonaws.com/portfolio-companies/giri-balasubramaniam_drembot_founder.jpg
+4)joora drones-https://ahub-image.s3.eu-north-1.amazonaws.com/portfolio-companies/joora_drone_consultants_logo-removebg-preview.png
+               https://ahub-image.s3.eu-north-1.amazonaws.com/portfolio-companies/sagar_sahit_joora+drones.png
+5)kodefast-https://ahub-image.s3.eu-north-1.amazonaws.com/portfolio-companies/kodefast-removebg-preview.png
+           https://ahub-image.s3.eu-north-1.amazonaws.com/portfolio-companies/kodefast_founder.jpg
+        
+incubators-
+https://ahub-image.s3.eu-north-1.amazonaws.com/incubators/ahub.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/incubators/au+element+ahub.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/incubators/didgifac.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/incubators/marine+ahub.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/incubators/nasscom+ahub.jpg
+
+visitors-
+https://ahub-image.s3.eu-north-1.amazonaws.com/visitors/bvr+mohan+reddy.jpeg
+https://ahub-image.s3.eu-north-1.amazonaws.com/visitors/carmelo+rosa.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/visitors/dr+lawrence+jones.jpeg
+https://ahub-image.s3.eu-north-1.amazonaws.com/visitors/dr+lawrence+jones.jpeg
+https://ahub-image.s3.eu-north-1.amazonaws.com/visitors/malcolm+Byrne.jpg
+https://ahub-image.s3.eu-north-1.amazonaws.com/visitors/mats+viberg.jpeg
+https://ahub-image.s3.eu-north-1.amazonaws.com/visitors/naryana+murthy.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/visitors/rishi+mehta.jpg
+
+
+icons-
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/board.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/case_studies.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/event_calendar.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/event_registartion.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/impact.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/infasrtucture.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/internship_registartion.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/join_us.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/mentors.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/operational_model.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/partners.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/pitch_to_us.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/press.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/reports.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/rewared_recognition.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/startup_blog.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/startup_events.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/startup_funding.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/startup_porfolio.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/startup_registartion.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/team.png
+https://ahub-image.s3.eu-north-1.amazonaws.com/icons/vision-roadmap.png
+
+ahublogo--https://ahub-image.s3.eu-north-1.amazonaws.com/AHub-Logo-1.png
+calendar icon in event calendar page-https://ahub-image.s3.eu-north-1.amazonaws.com/calender.png
+
+
+
+Master username
+admin
+Master password
+fg7i7zXfucDDZC7XjYKe
+Endpoint
+ahub-mysql.c1ciie46cgyp.eu-north-1.rds.amazonaws.com
+
+mysql -h "ahub-mysql.c1ciie46cgyp.eu-north-1.rds.amazonaws.com" -P 3306 -u admin -p
+
+
+mysql -h "ahub-mysql.c1ciie46cgyp.eu-north-1.rds.amazonaws.com" -P 3306 -u admin -p --ssl-mode=VERIFY_IDENTITY --ssl-ca="C:\Users\sekha\Downloads\global-bundle.pem"
+
+| associated_with -- Backed by builders & institutions logos on home page
+| board_members -- Board of Governors profile photos and details
+| case_studies -- Case studies company showcase images and links
+| events  -- Latest events and calendar event images
+| find_us_on -- Social media links, handles, and embeds (LinkedIn, Twitter, Instagram, YouTube)
+| impact_metrics  -- High-impact numerical ecosystem metrics
+| incubator_cards  -- Incubator center card visuals
+| infrastructure_items -- Campus facilities, IoT labs, conference hall, and gallery photos
+| internship_listings -- Student internship company hiring logos and details
+| join_us_form_config  -- Dynamic join-us form configurations
+| join_us_submissions -- User and student application submissions
+| mentors -- Mentors and advisors profile photos and LinkedIn links
+| mesh_network -- Mesh network ecosystem partner logos
+| milestones -- Journey timeline years and milestone graphics
+| page_sections -- Dynamic custom section content and banners
+| page_visibility -- Page visibility toggles (22 pages)
+| partners -- Associated with partner logos and websites
+| portfolio_companies -- Fixed portfolio company showcase cards, logos & founder photos
+| press_items -- Press clippings, media releases, and external article URLs
+| press_page -- Press and media page heading and subheadings
+| roadmaps -- Strategic roadmap diagram
+| startup_events -- Startup events, HackAP, Ignite, and workshop posters
+| startups -- All 38 incubated startups in portfolio grid and ticker
+| team_members -- Individual team member photos and titles
+| team_page -- Team page wide group photo and header metadata
+| vision_mission -- Vision & Mission cards and banner photos
+| visitors -- Distinguished visitors portrait photos, titles, and organizations
+| admins -- Admin panel user credentials and permissions
+| alembic_version -- Database schema migration tracking

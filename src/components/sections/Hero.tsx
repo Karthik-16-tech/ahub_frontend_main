@@ -1,0 +1,120 @@
+import { ArrowRight } from "lucide-react";
+import { useState } from "react";
+import { Link } from "@tanstack/react-router";
+import { usePublicHero } from "@/services/usePublicContent";
+import { cn } from "@/lib/utils";
+
+import heroLocalVideo from "@/assets/hero-optimized.mp4";
+
+export const HERO_VIDEO_URL = "https://dtfhihp4ovn79.cloudfront.net/hero-optimized.mp4";
+
+const fallbackHeroData = {
+  poster: "",
+  video: HERO_VIDEO_URL,
+  heading: "A premium startup ecosystem for ambitious founders.",
+  subheading: "Incubation, mentorship, and strategic support in a cinematic, high-trust setting.",
+};
+
+export function Hero() {
+  const [videoFailed, setVideoFailed] = useState(false);
+
+  const prefersReduced =
+    typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  const { data: heroData } = usePublicHero(fallbackHeroData);
+
+  const {
+    heading = fallbackHeroData.heading,
+    subheading = fallbackHeroData.subheading,
+    poster = fallbackHeroData.poster,
+    video = HERO_VIDEO_URL,
+  } = heroData ?? fallbackHeroData;
+
+  const primaryVideoSrc = video || HERO_VIDEO_URL;
+
+  return (
+    <section
+      id="home"
+      className="relative isolate h-[100svh] w-full overflow-hidden text-foreground bg-black"
+      aria-label="Hero section - Welcome to AHUB Premium Innovation Hub"
+    >
+      {/* VIDEO BACKGROUND LAYER - All devices including mobile with high-speed streaming */}
+      {!videoFailed && !prefersReduced ? (
+        <video
+          className="absolute top-1/2 left-1/2 min-h-full min-w-full -translate-x-1/2 -translate-y-1/2 object-cover z-0"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          onError={() => {
+            setVideoFailed(true);
+          }}
+          aria-hidden="true"
+          controlsList="nodownload"
+          disablePictureInPicture
+        >
+          <source src={primaryVideoSrc} type="video/mp4" />
+          {primaryVideoSrc !== heroLocalVideo && (
+            <source src={heroLocalVideo} type="video/mp4" />
+          )}
+        </video>
+      ) : (
+        /* FALLBACK BACKGROUND - video error or reduced motion (blank black page) */
+        <div className="absolute inset-0 h-full w-full bg-black z-0" />
+      )}
+
+      {/* Single dark overlay */}
+      <div
+        className="pointer-events-none absolute inset-0 z-10 bg-black/40"
+        aria-hidden="true"
+      />
+
+      {/* DECORATIVE ELEMENTS - Premium glow accents */}
+      <div
+        className="pointer-events-none absolute left-[6%] top-[14%] h-[22rem] w-[22rem] rounded-full bg-[radial-gradient(circle,rgba(255,182,109,0.25)_0%,rgba(255,182,109,0.08)_38%,transparent_72%)] blur-3xl z-[5]"
+        aria-hidden="true"
+      />
+      <div
+        className="pointer-events-none absolute right-[-8%] top-[18%] h-[16rem] w-[16rem] rounded-full bg-[radial-gradient(circle,rgba(255,240,225,0.2)_0%,rgba(255,240,225,0.05)_38%,transparent_72%)] blur-3xl z-[5]"
+        aria-hidden="true"
+      />
+      {/* CONTENT LAYER - Above all overlays */}
+      <div className="relative z-30 flex h-full w-full items-center">
+        <div className="site-container-wide py-24 max-sm:py-16">
+          <div className="max-w-xl text-white">
+            {/* Main Heading */}
+            <h1 className="text-balance font-display text-3xl font-semibold leading-[1.15] sm:leading-[1.05] tracking-tight sm:text-4xl xl:text-[3.5rem] drop-shadow-[0_12px_32px_rgba(0,0,0,0.6)] max-xs:text-2xl">
+              <span className="animate-fadeIn">
+                {heading}
+              </span>
+            </h1>
+
+            {/* Subheading */}
+            <p className="mt-6 max-w-lg text-base leading-relaxed text-white md:text-lg drop-shadow-[0_8px_24px_rgba(0,0,0,0.6)]">
+              {subheading}
+            </p>
+
+            {/* CTA Button */}
+            <div className="mt-10 flex flex-wrap items-center gap-4">
+              <Link
+                to="/ecosystem/infrastructure"
+                className={cn(
+                  "group inline-flex items-center justify-center gap-2 rounded-full bg-[#c94a0a] px-4 py-3 sm:px-7 min-h-[43px] text-xs sm:text-sm font-semibold text-white transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:bg-[#b8420a] focus:outline-none focus:ring-2 focus:ring-white/80 focus:ring-offset-2 focus:ring-offset-black active:scale-95 border border-white/10",
+                )}
+                aria-label="Explore the AHUB ecosystem and incubation programs"
+              >
+                <span>Explore Ecosystem</span>
+                <ArrowRight
+                  size={18}
+                  aria-hidden="true"
+                  className="transition-transform group-hover:translate-x-1"
+                />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
