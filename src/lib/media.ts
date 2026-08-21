@@ -1,7 +1,7 @@
 /** Shared media URL helpers for frontend ↔ backend integration */
 
 export const API_BASE_URL =
-  import.meta.env.VITE_API_URL || "http://localhost:8000";
+  import.meta.env.VITE_API_URL || "http://13.51.70.137";
 
 /** Public media path prefix — backend serves uploaded files here */
 export const PUBLIC_MEDIA_PATH = "/api/public/media";

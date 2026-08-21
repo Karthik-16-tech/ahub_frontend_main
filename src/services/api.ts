@@ -1,7 +1,7 @@
 import axios, { InternalAxiosRequestConfig, AxiosError, AxiosResponse } from 'axios';
 
-// The base URL should be configurable, defaulting to the local FastAPI server
-export const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+// The base URL should be configurable, defaulting to the AWS EC2 production backend
+export const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://13.51.70.137';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
