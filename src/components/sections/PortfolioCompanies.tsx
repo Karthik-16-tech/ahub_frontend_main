@@ -192,7 +192,6 @@ export function PortfolioCompanies() {
                     <img
                       src={logoUrl}
                       alt={startupName}
-                      loading="lazy"
                       decoding="async"
                       className={`max-w-none flex-shrink-0 object-contain -rotate-90 transition-all duration-500 group-hover:scale-108 ${isDreamBot ? "w-[100px] h-[35px]" : "w-[135px] h-[47px]"}`}
                       draggable={false}
@@ -235,7 +234,6 @@ export function PortfolioCompanies() {
                             <img
                               src={logoUrl}
                               alt={`${startupName} logo`}
-                              loading="lazy"
                               decoding="async"
                               className={`${isDreamBot ? "h-[36px]" : "h-[46px]"} w-auto max-w-[200px] object-contain flex-shrink-0`}
                               draggable={false}

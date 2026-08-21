@@ -503,8 +503,8 @@
 }
 
 /* Image smooth rendering & layout stability */
-img[loading="lazy"] {
-  content-visibility: auto;
+img {
+  max-width: 100%;
 }
 
 

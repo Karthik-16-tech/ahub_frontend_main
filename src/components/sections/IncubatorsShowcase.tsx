@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "@tanstack/react-router";
 import {
   ArrowUpRight,
@@ -103,25 +103,6 @@ const incubators: Incubator[] = [
     stats: [
       { value: "50+", label: "Tech Startups", Icon: Rocket },
       { value: "100+", label: "Mentors", Icon: Users },
-      { value: "35+", label: "Enterprise Pilots", Icon: TrendingUp },
-    ],
-  },
-  {
-    name: "DigiFAC",
-    tagline: "Digital Fabrication & Advanced Manufacturing Hub",
-    short:
-      "A state-of-the-art digital fabrication facility equipping innovators with rapid prototyping, 3D printing, CNC machining, and industrial design tools.",
-    long:
-      "DigiFAC empowers hardware and IoT startups to design, test, and iterate physical product prototypes with precision engineering infrastructure and technical expert support.",
-    blurb:
-      "Access cutting-edge digital fabrication machinery, CAD/CAM software, and prototyping specialists to accelerate product development from concept to manufacturing.",
-    image: "https://ahub-image.s3.eu-north-1.amazonaws.com/incubators/didgifac.jpg",
-    card: "https://ahub-image.s3.eu-north-1.amazonaws.com/incubators/didgifac.jpg",
-    url: "/ecosystem/infrastructure",
-    stats: [
-      { value: "35+", label: "Prototypes", Icon: Rocket },
-      { value: "20+", label: "Labs & Machines", Icon: Building2 },
-      { value: "15+", label: "Industry Partners", Icon: TrendingUp },
     ],
   },
 ];
@@ -130,7 +111,22 @@ export function IncubatorsShowcase() {
   const { data: incubatorsData } = usePublicIncubators(incubators);
   const [i, setI] = useState(0);
 
-  const c = incubatorsData[i];
+  useEffect(() => {
+    if (Array.isArray(incubatorsData)) {
+      incubatorsData.forEach((item: any) => {
+        if (item?.image) {
+          const img = new Image();
+          img.src = item.image;
+        }
+        if (item?.card) {
+          const cardImg = new Image();
+          cardImg.src = item.card;
+        }
+      });
+    }
+  }, [incubatorsData]);
+
+  const c = incubatorsData[i] || incubatorsData[0];
 
   const next = () => setI((x) => (x + 1) % incubatorsData.length);
   const prev = () => setI((x) => (x - 1 + incubatorsData.length) % incubatorsData.length);
@@ -158,9 +154,7 @@ export function IncubatorsShowcase() {
                 key={c.image}
                 src={c.image}
                 alt={c.name}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
+                decoding="async"
                 className="w-full rounded-[1.25rem] object-cover h-48 sm:h-56 md:h-64"
               />
             </AnimatePresence>
@@ -201,35 +195,44 @@ export function IncubatorsShowcase() {
                 {c.blurb}
               </p>
               <div className="mt-4 grid grid-cols-3 gap-3">
-                {c.stats.map((stat: StatItem, statIdx: number) => {
-                  const Icon = stat.Icon ?? [Rocket, Users, TrendingUp][statIdx] ?? Rocket;
-                  return (
-                    <motion.div
-                      key={`${c.name}-${stat.label}-${statIdx}`}
-                      whileHover={{ y: -3, scale: 1.02 }}
-                      transition={{ duration: 0.2 }}
-                      className="group relative flex flex-col justify-between overflow-hidden rounded-2xl bg-white/95 backdrop-blur-md p-3.5 shadow-[0_10px_25px_-5px_rgba(0,0,0,0.08)] border border-white/60 transition-all duration-300 hover:shadow-[0_15px_30px_-5px_rgba(249,115,22,0.25)] hover:border-orange-200"
-                    >
-                      <div className="flex items-center justify-between gap-2">
-                        <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-orange-50 border border-orange-100/60 shadow-xs transition-colors group-hover:bg-[#F97316]">
-                          <Icon className="h-4 w-4 text-[#F97316] transition-colors group-hover:text-white" strokeWidth={2.2} />
+                {(() => {
+                  const defaultIcons = [Rocket, Users, TrendingUp];
+                  const rawStats = Array.isArray(c.stats) ? c.stats : [];
+                  const displayStats = [
+                    rawStats[0]?.value || rawStats[0]?.label ? rawStats[0] : { value: "50+", label: "Tech Startups" },
+                    rawStats[1]?.value || rawStats[1]?.label ? rawStats[1] : { value: "100+", label: "Mentors" },
+                    rawStats[2]?.value || rawStats[2]?.label ? rawStats[2] : { value: "35+", label: "Enterprise Pilots" },
+                  ];
+                  return displayStats.map((stat: StatItem, statIdx: number) => {
+                    const Icon = stat.Icon ?? defaultIcons[statIdx % 3] ?? Rocket;
+                    return (
+                      <motion.div
+                        key={`${c.name}-${stat.label}-${statIdx}`}
+                        whileHover={{ y: -3, scale: 1.02 }}
+                        transition={{ duration: 0.2 }}
+                        className="group relative flex flex-col justify-between overflow-hidden rounded-2xl bg-white/95 backdrop-blur-md p-3.5 shadow-[0_10px_25px_-5px_rgba(0,0,0,0.08)] border border-white/60 transition-all duration-300 hover:shadow-[0_15px_30px_-5px_rgba(249,115,22,0.25)] hover:border-orange-200"
+                      >
+                        <div className="flex items-center justify-between gap-2">
+                          <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-orange-50 border border-orange-100/60 shadow-xs transition-colors group-hover:bg-[#F97316]">
+                            <Icon className="h-4 w-4 text-[#F97316] transition-colors group-hover:text-white" strokeWidth={2.2} />
+                          </div>
+                          <div className="h-1.5 w-1.5 rounded-full bg-orange-400/40 group-hover:bg-[#F97316] transition-colors" />
                         </div>
-                        <div className="h-1.5 w-1.5 rounded-full bg-orange-400/40 group-hover:bg-[#F97316] transition-colors" />
-                      </div>
 
-                      <div className="mt-3">
-                        <div className="font-display text-lg sm:text-xl font-[900] tracking-tight text-slate-900 leading-tight">
-                          {stat.value}
+                        <div className="mt-3">
+                          <div className="font-display text-lg sm:text-xl font-[900] tracking-tight text-slate-900 leading-tight">
+                            {stat.value}
+                          </div>
+                          <div className="text-[11px] font-bold text-slate-600 tracking-wide mt-0.5 truncate">
+                            {stat.label}
+                          </div>
                         </div>
-                        <div className="text-[11px] font-bold text-slate-600 tracking-wide mt-0.5 truncate">
-                          {stat.label}
-                        </div>
-                      </div>
 
-                      <div className="mt-2 h-1 w-5 rounded-full bg-gradient-to-r from-orange-500 to-amber-400 group-hover:w-8 transition-all duration-300" />
-                    </motion.div>
-                  );
-                })}
+                        <div className="mt-2 h-1 w-5 rounded-full bg-gradient-to-r from-orange-500 to-amber-400 group-hover:w-8 transition-all duration-300" />
+                      </motion.div>
+                    );
+                  });
+                })()}
               </div>
               <div>
                 {c.url && (c.url.startsWith("http://") || c.url.startsWith("https://")) ? (

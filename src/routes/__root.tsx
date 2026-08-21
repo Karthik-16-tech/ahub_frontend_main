@@ -105,10 +105,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: "https://dtfhihp4ovn79.cloudfront.net",
       },
       {
-        rel: "preload",
-        as: "video",
+        rel: "prefetch",
         href: "https://dtfhihp4ovn79.cloudfront.net/hero-optimized.mp4",
-        type: "video/mp4",
       },
       {
         rel: "preconnect",

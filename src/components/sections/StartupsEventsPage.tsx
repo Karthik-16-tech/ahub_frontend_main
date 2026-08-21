@@ -60,7 +60,7 @@ function EventImageGallery({ title, image, images }: { title: string; image: str
         <div className="flex h-full">
           {images.map((img, idx) => (
             <div key={idx} className="min-w-0 flex-[0_0_100%] h-full">
-              <img loading="lazy" decoding="async"
+              <img decoding="async" loading="eager"
                 src={img}
                 alt={`${title} - ${idx + 1}`}
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 pointer-events-none"
@@ -73,7 +73,7 @@ function EventImageGallery({ title, image, images }: { title: string; image: str
   }
 
   return (
-    <img loading="lazy" decoding="async"
+    <img decoding="async" loading="eager"
       src={image}
       alt={title}
       className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -84,7 +84,7 @@ function EventImageGallery({ title, image, images }: { title: string; image: str
 function EventImageCollage({ title, image, images }: { title: string; image: string; images?: string[] }) {
   if (!images || images.length <= 1) {
     return (
-      <img loading="lazy" decoding="async" src={image} alt={title} className="h-full w-full object-cover rounded-2xl" />
+      <img decoding="async" loading="eager" src={image} alt={title} className="h-full w-full object-cover rounded-2xl" />
     );
   }
   
@@ -92,13 +92,13 @@ function EventImageCollage({ title, image, images }: { title: string; image: str
     return (
       <div className="grid grid-cols-2 grid-rows-2 h-full w-full gap-2 p-2">
         <div className="col-span-1 row-span-2 overflow-hidden rounded-xl bg-white border border-slate-100">
-          <img loading="lazy" decoding="async" src={images[0]} alt={title} className="h-full w-full object-cover" />
+          <img decoding="async" loading="eager" src={images[0]} alt={title} className="h-full w-full object-cover" />
         </div>
         <div className="col-span-1 row-span-1 overflow-hidden rounded-xl bg-white border border-slate-100">
-          <img loading="lazy" decoding="async" src={images[1]} alt={title} className="h-full w-full object-cover" />
+          <img decoding="async" loading="eager" src={images[1]} alt={title} className="h-full w-full object-cover" />
         </div>
         <div className="col-span-1 row-span-1 overflow-hidden rounded-xl bg-white border border-slate-100">
-          <img loading="lazy" decoding="async" src={images[2]} alt={title} className="h-full w-full object-cover" />
+          <img decoding="async" loading="eager" src={images[2]} alt={title} className="h-full w-full object-cover" />
         </div>
       </div>
     );
@@ -109,7 +109,7 @@ function EventImageCollage({ title, image, images }: { title: string; image: str
     <div className="grid grid-cols-2 h-full w-full gap-2 p-2">
       {images.slice(0, 4).map((img, i) => (
         <div key={i} className="overflow-hidden rounded-xl bg-white border border-slate-100">
-          <img loading="lazy" decoding="async" src={img} alt={title} className="h-full w-full object-cover" />
+          <img decoding="async" loading="eager" src={img} alt={title} className="h-full w-full object-cover" />
         </div>
       ))}
     </div>
