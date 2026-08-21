@@ -14,63 +14,12 @@ function adminProxyPlugin(): Plugin {
       server.middlewares.use((req, res, next) => {
         const url = req.url || ''
         if (url === '/admin' || url.startsWith('/admin/') || url.startsWith('/admin?')) {
-          // Normalize /admin to /admin/ so Vite SPA serves index.html
-          const proxiedPath = url === '/admin' ? '/admin/' : url
-          const targetUrl = new URL(proxiedPath, 'http://localhost:5174')
-
-          const proxyReq = http.request(
-            targetUrl,
-            {
-              method: req.method,
-              headers: {
-                ...req.headers,
-                host: 'localhost:5174',
-              },
-            },
-            (proxyRes) => {
-              res.writeHead(proxyRes.statusCode || 200, proxyRes.headers)
-              proxyRes.pipe(res)
-            }
-          )
-
-          proxyReq.on('error', (err) => {
-            res.writeHead(502, { 'Content-Type': 'text/html' })
-            res.end(
-              `<div style="font-family:sans-serif;padding:2rem;text-align:center;">` +
-              `<h2>AHUB Admin Server Connecting...</h2>` +
-              `<p>Please ensure the admin server is running at <code>http://localhost:5174/admin/</code></p>` +
-              `<p style="color:#888;">${err.message}</p>` +
-              `</div>`
-            )
-          })
-
-          req.pipe(proxyReq)
+          const adminUrl = process.env.VITE_ADMIN_URL || 'http://13.60.210.151/admin/login'
+          res.writeHead(302, { Location: adminUrl })
+          res.end()
           return
         }
         next()
-      })
-
-      // Forward WebSocket connections for Vite HMR in /admin
-      server.httpServer?.on('upgrade', (req, socket, head) => {
-        const url = req.url || ''
-        if (url.startsWith('/admin')) {
-          const proxySocket = net.connect(5174, 'localhost', () => {
-            proxySocket.write(
-              `${req.method} ${req.url} HTTP/${req.httpVersion}\r\n` +
-              Object.entries(req.headers)
-                .map(([k, v]) => `${k}: ${v}`)
-                .join('\r\n') +
-              '\r\n\r\n'
-            )
-            proxySocket.write(head)
-            socket.pipe(proxySocket)
-            proxySocket.pipe(socket)
-          })
-
-          proxySocket.on('error', () => {
-            socket.destroy()
-          })
-        }
       })
     },
   }
@@ -83,8 +32,8 @@ export default defineConfig({
     tanstackStart(),
     nitro({
       routeRules: {
-        '/admin': { proxy: 'http://localhost:5174/admin/' },
-        '/admin/**': { proxy: 'http://localhost:5174/admin/**' },
+        '/admin': { redirect: 'http://13.60.210.151/admin/login' },
+        '/admin/**': { redirect: 'http://13.60.210.151/admin/login' },
       },
     }),
     react(),
